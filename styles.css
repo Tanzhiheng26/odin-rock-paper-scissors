@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+}
+
+h1 {
+    background-color: black;
+    color: #F4D03F;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    background-color: #17202A;
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    height: 100%; 
+}
+
+#content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#result,
+#scores,
+#winner {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.choice {
+    background-color: #34495E;
+    color: #F4D03F;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    border: none;
+}
+
+.choice:hover {
+    background-color: #5D6D7E;
+}
+
+#player-choice,
+#computer-choice {
+    color: #F4D03F;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#scores,
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#scores {
+    gap: 40px;
+}
+
+#replay-container {
+    display: none;
+}
+
+#replay-button {
+    font-size: 20px;
+}
